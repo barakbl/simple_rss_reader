@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+   <channel>
+      <title>RSS title</title>
+      <link>https://github.com/barakbl/simple_rss_reader</link>
+      <description>Test Description</description>
+      <language>English</language>
+      <pubDate>01/01/2022 16:00:00</pubDate>
+      <lastBuildDate>01/01/2022 16:00:00</lastBuildDate>
+      <generator>ff</generator>
+      <managingEditor>barak.bloch@gmail.com</managingEditor>
+      <webMaster>barak.bloch@gmail.com</webMaster>
+      <item>
+         <title>Item 1</title>
+         <link>https://github.com/barakbl/simple_rss_reader?1</link>
+         <pubDate>01/01/2022 16:00:00</pubDate>
+      </item>
+            <item>
+         <title>Item 2</title>
+         <link>https://github.com/barakbl/simple_rss_reader?2</link>
+         <pubDate>01/01/2022 16:00:00</pubDate>
+      </item>
+   </channel>
+</rss>
