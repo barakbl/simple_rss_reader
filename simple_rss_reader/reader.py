@@ -12,7 +12,7 @@ parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 
 
-from src.exceptions import InvalidXML, RequestError
+from simple_rss_reader.exceptions import InvalidXML, RequestError
 
 
 class SimpleRssReader:
