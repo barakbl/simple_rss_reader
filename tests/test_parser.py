@@ -1,7 +1,7 @@
 import json
-from src.exceptions import InvalidXML, RequestError
+from simple_rss_reader.exceptions import InvalidXML, RequestError
 from root import ROOT_DIR
-from src.reader import SimpleRssReader
+from simple_rss_reader.reader import SimpleRssReader
 
 def _test_data(obj):
     assert obj["headers"]["title"] == "RSS title"
