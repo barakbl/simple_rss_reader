@@ -49,7 +49,8 @@ class SimpleRssReader:
                             item[item_el.tagName] = item_el.childNodes[0].data
                     res["items"].append(item)
                 elif x.nodeType == Node.ELEMENT_NODE:
-                    res["headers"][x.tagName] = x.childNodes[0].data
+                    if hasattr(x.childNodes[0], "data"):
+                        res["headers"][x.tagName] = x.childNodes[0].data
         return res
 
     def prettyxml(self):
